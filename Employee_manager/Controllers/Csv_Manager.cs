@@ -24,12 +24,23 @@ namespace Employees.Controllers
                         Name = values[1],
                         Position = values[2],
                         //DateOfBirth = Convert.ToDateTime(values[3]),
-
                         DateOfBirth = DateOnly.FromDateTime(Convert.ToDateTime(values[3])),
-
                         Email = values[4],
-                        Salary = Convert.ToDecimal(values[5])
-                    }; 
+                        Salary = Convert.ToDecimal(values[5]),
+                        Department = values[6] ,
+                        PhoneNo = values[7] ,
+                        JoiningDate = DateOnly.FromDateTime(Convert.ToDateTime(values[8])),
+                    };
+                    Console.WriteLine(emp.Id);
+                    Console.WriteLine(emp.Name);
+                    Console.WriteLine(emp.Position);
+                    Console.WriteLine(emp.DateOfBirth);
+                    Console.WriteLine(emp.Email);
+                    Console.WriteLine(emp.Salary);
+                    Console.WriteLine(emp.Department);
+                    Console.WriteLine(emp.PhoneNo);
+                    Console.WriteLine(emp.JoiningDate);
+
                     cslst.Add(emp);
                 }
             }

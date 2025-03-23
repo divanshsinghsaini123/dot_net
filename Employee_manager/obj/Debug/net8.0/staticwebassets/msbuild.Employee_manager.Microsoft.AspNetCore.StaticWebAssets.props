@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rzz7apdi6i</Fingerprint>
-      <Integrity>90/y0kacTiACXp4iRi8rYObPDBAXPY1RFjfsuy9Xy5M=</Integrity>
+      <Fingerprint>0wceamvmzk</Fingerprint>
+      <Integrity>QPUrMvrpZ7+XHiGnHKfkBzy2SgqjGcYxYlxL3UZ/3c4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data_hai_ye.csv'))</OriginalItemSpec>

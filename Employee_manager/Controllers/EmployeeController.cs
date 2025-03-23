@@ -62,6 +62,8 @@ namespace Employees.Controllers
             ViewBag.message = "Data not added";
             //add to the list and Csv also
             //redirect to index page
+
+            ViewBag.Id = x.Id;
             return View("create");
         }
         public IActionResult Edit(int id)
