@@ -1,0 +1,61 @@
+﻿@model Employees.Models.EmpModel; 
+@{
+    ViewData["Title"] = "Manager";
+    int identity = ViewBag.Id;
+    string mess = ViewBag.Message;
+}
+@{
+    string typeofsubmit = "Create Profile";
+    if (mess == "Create")
+    {
+        <h2>Create a new Profile</h2>
+    }
+    else if (mess == "Edit")
+    {
+        typeofsubmit = "Save Changes";
+        <h2>Edit Profile for id = @identity</h2>
+    }
+}
+
+
+@* Use asp-validation for error management *@
+
+<form method="post" asp-action="Update">
+    <label for="Id">Emp - ID</label>
+    <input type="number" id="Id" name="Id" value="@identity" readonly />
+    <br>
+
+    <label for="Name">Name</label>
+    <input type="text" asp-for="Name"  />
+    <br />
+
+    <label for="Position">Position</label>
+    <input type="text" asp-for="Position" required />
+    <br />
+
+    <label for="DateOfBirth">Date of Birth</label>
+    <input type="date" asp-for="DateOfBirth" required />
+    <br />
+
+    <label for="Email">Email</label>
+    <input type="email" asp-for="Email" required />
+    <br />
+
+    <label for="Salary">Salary</label>
+    <input type="number" asp-for="Salary" step="0.01" required />
+    <br />
+
+    <label for="Department">Department</label>
+    <input type="text" asp-for="Department" required />
+    <br />
+
+    <label for="PhoneNo">Phone Number</label>
+    <input type="tel" asp-for="PhoneNo" required />
+    <br />
+
+    <label for="JoiningDate">Joining Date</label>
+    <input type="date" asp-for="JoiningDate" required />
+    <br />
+
+    <button class="btn btn-success" type="submit">@typeofsubmit</button>
+</form>
