@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dot_net\\Employee_manager\\Employee_manager.csproj": {}
+    "E:\\dot_net\\Employee_manager\\Employee_manager.csproj": {}
   },
   "projects": {
-    "D:\\dot_net\\Employee_manager\\Employee_manager.csproj": {
+    "E:\\dot_net\\Employee_manager\\Employee_manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dot_net\\Employee_manager\\Employee_manager.csproj",
+        "projectUniqueName": "E:\\dot_net\\Employee_manager\\Employee_manager.csproj",
         "projectName": "Employee_manager",
-        "projectPath": "D:\\dot_net\\Employee_manager\\Employee_manager.csproj",
-        "packagesPath": "C:\\Users\\divan\\.nuget\\packages\\",
-        "outputPath": "D:\\dot_net\\Employee_manager\\obj\\",
+        "projectPath": "E:\\dot_net\\Employee_manager\\Employee_manager.csproj",
+        "packagesPath": "C:\\Users\\Testing\\.nuget\\packages\\",
+        "outputPath": "E:\\dot_net\\Employee_manager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\divan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Testing\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

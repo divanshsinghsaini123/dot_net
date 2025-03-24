@@ -1,10 +1,11 @@
 ﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Employee_manager.Models;
 using Employees.Models;
+using Employee_manager.Interfaces;
 
-namespace Employees.Controllers
+namespace Employee_manager.Services
 {
-    public class Csv_Manager
+    public class Csv_Manager : ICsv_Manager
     {
         private List<EmpModel> cslst = new List<EmpModel>();
         string path = "wwwroot/data_hai_ye.csv";

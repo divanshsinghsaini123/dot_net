@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dot_net\\",
+  "WorkspaceRootPath": "E:\\dot_net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dot_net\\Employees\\wwwroot\\data_hai_ye.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Employees\\wwwroot\\data_hai_ye.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\dot_net\\Employee_manager\\Controllers\\Csv_Manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Employee_manager\\Controllers\\Csv_Manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dot_net\\Employees\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Employees\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dot_net\\Employees\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Employees\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dot_net\\Employees\\Controllers\\Csv_Manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Employees\\Controllers\\Csv_Manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\dot_net\\Employee_manager\\wwwroot\\data_hai_ye.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Employee_manager\\wwwroot\\data_hai_ye.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +30,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dot_net\\Employees\\Program.cs",
-              "RelativeDocumentMoniker": "Employees\\Program.cs",
-              "ToolTip": "D:\\dot_net\\Employees\\Program.cs",
-              "RelativeToolTip": "Employees\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:55:16.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Csv_Manager.cs",
-              "DocumentMoniker": "D:\\dot_net\\Employees\\Controllers\\Csv_Manager.cs",
-              "RelativeDocumentMoniker": "Employees\\Controllers\\Csv_Manager.cs",
-              "ToolTip": "D:\\dot_net\\Employees\\Controllers\\Csv_Manager.cs",
-              "RelativeToolTip": "Employees\\Controllers\\Csv_Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:52:25.665Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "data_hai_ye.csv",
-              "DocumentMoniker": "D:\\dot_net\\Employees\\wwwroot\\data_hai_ye.csv",
-              "RelativeDocumentMoniker": "Employees\\wwwroot\\data_hai_ye.csv",
-              "ToolTip": "D:\\dot_net\\Employees\\wwwroot\\data_hai_ye.csv",
-              "RelativeToolTip": "Employees\\wwwroot\\data_hai_ye.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-03-22T06:51:31.896Z",
+              "Title": "Csv_Manager.cs",
+              "DocumentMoniker": "E:\\dot_net\\Employee_manager\\Controllers\\Csv_Manager.cs",
+              "RelativeDocumentMoniker": "Employee_manager\\Controllers\\Csv_Manager.cs",
+              "ToolTip": "E:\\dot_net\\Employee_manager\\Controllers\\Csv_Manager.cs",
+              "RelativeToolTip": "Employee_manager\\Controllers\\Csv_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:26:55.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\dot_net\\Employees\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Employees\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\dot_net\\Employees\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Employees\\Controllers\\EmployeeController.cs",
+              "DocumentIndex": 1,
+              "Title": "data_hai_ye.csv",
+              "DocumentMoniker": "E:\\dot_net\\Employee_manager\\wwwroot\\data_hai_ye.csv",
+              "RelativeDocumentMoniker": "Employee_manager\\wwwroot\\data_hai_ye.csv",
+              "ToolTip": "E:\\dot_net\\Employee_manager\\wwwroot\\data_hai_ye.csv",
+              "RelativeToolTip": "Employee_manager\\wwwroot\\data_hai_ye.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:51:26.145Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-03-24T05:26:38.668Z",
+              "EditorCaption": ""
             }
           ]
         }

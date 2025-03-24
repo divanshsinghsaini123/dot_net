@@ -1,5 +1,5 @@
 ﻿
-@model Employees.Models.EmpModel;
+@model EmpModel;
 
 @{
     ViewData["Title"] = "Manager";
@@ -52,6 +52,6 @@
             <input type="date" asp-for="JoiningDate" class="form-control " required />
         
             <button class="btn btn-success my-4 px-3 py-1" type="submit">@typeofsubmit</button>
-        
+            <a asp-action="index" asp-controller="Employee" class="btn btn-info" >Back</a>
     </form>
 </div>

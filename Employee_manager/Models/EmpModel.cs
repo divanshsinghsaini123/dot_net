@@ -6,8 +6,7 @@ namespace Employees.Models
     public class EmpModel
     {
         public int Id { get; set; }
-        //[Required(ErrorMessage = "this is required")]
-
+        //[Required(ErrorMessage = "this is required");
         [Required(ErrorMessage = "this is required")]
         public string Name { get; set; } = "temp";
         [Required(ErrorMessage = "this is required")]

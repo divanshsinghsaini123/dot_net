@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Employees",
-    "\\Employees\\Properties"
+    "\\Employee_manager",
+    "\\Employee_manager\\Controllers",
+    "\\Employee_manager\\wwwroot"
   ],
+  "SelectedNode": "\\Employee_manager\\Employee_manager.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -1,76 +1,4 @@
-﻿@* @model List<Employees.Models.EmpModel> *@
-
-@* @{ *@
-@*     ViewData["Title"] = "Manager"; *@
-@*     string message = ViewBag.Message; *@
-@* } *@
-
-@* @if (message != null) *@
-@* { *@
-@*     if (message == "Data not deleted") *@
-@*     { *@
-@*         <div class="alert alert-danger" role="alert"> *@
-@*             @message *@
-@*         </div> *@
-@*     } *@
-@*     else{ *@
-@*         //message when we returning from edit  *@
-@*         <div class="alert alert-success" role="alert"> *@
-@*             @message *@
-@*         </div> *@
-@*     } *@
-@* } *@
-@* <div class="text-center"> *@
-@*     <h1 class="display-4">Welcome TO Employee Manager -</h1> *@
-@*     <table> *@
-@*         <thead> *@
-@*             <th>Emp-Id</th> *@
-@*             <th>Name</th> *@
-@*             <th>Position</th> *@
-@*             <th>DateOfBirth</th> *@
-@*             <th>Email</th> *@
-@*             <th>Salary</th> *@
-@*             <th>Department</th> *@
-@*             <th>JoiningDate</th> *@
-@*         </thead> *@
-@*         <tbody> *@
-@*             @foreach (var item in Model) *@
-@*             { *@
-@*                 <tr> *@
-@*                     <td>@item.Id</td> *@
-@*                     <td>@item.Name</td> *@
-@*                     <td>@item.Position</td> *@
-@*                     <td>@item.DateOfBirth</td> *@
-@*                     <td>@item.Email</td> *@
-@*                     <td>@item.Salary</td> *@
-@*                     <td>@item.Department</td> *@
-@*                     <td>@item.JoiningDate</td> *@
-@*                     <td><a class="btn btn-warning" asp-controller="Employee" asp-action="Create" asp-route-id ="@item.Id">Edit</a></td> *@
-@*                     <td><a class="btn btn-outline-danger"href="javascript:void(0);" onclick="confirmDelete(@item.Id)">Delete</a></td> *@
-@*                 </tr> *@
-@*             } *@
-@*         </tbody> *@
-@*     </table> *@
-@*     <a href="/Employee/Create" class="btn btn-primary">Add Data</a> *@
-
-@*     <script> *@
-@*         function confirmDelete(id){ *@
-@*         var x = confirm("Are you sure you want to delete ?"); *@
-@*         if (x) { *@
-@*              window.location.href = "/Employee/Delete/" + id; *@
-@*             console.log("js -" + id); *@
-@*             } *@
-          
-@*         } *@
-@*     </script> *@
-
-
-
-
-
-@* </div> *@
-
-@model List<Employees.Models.EmpModel>
+﻿@model List<EmpModel>
 
 @{
     ViewData["Title"] = "Manager";
@@ -78,13 +6,24 @@
 }
 
 <div class="container mt-4">
-    @if (!string.IsNullOrEmpty(message))
-    {
-        <div class="alert @(message == "Data not deleted" ? "alert-danger" : "alert-success")" role="alert">
-            @message
-        </div>
-    }
 
+   @{
+     if (message != null) 
+         { 
+             if (message == "Data not deleted") 
+             { 
+                 <div class="alert alert-danger" role="alert"> 
+                     @message 
+                 </div> 
+             } 
+             else{ 
+                 //message when we returning from edit  
+                 <div class="alert alert-success" role="alert"> 
+                     @message 
+                 </div> 
+             } 
+        }
+    }
     <div class="text-center mb-4">
         <h1 class="display-5 fw-bold">Employee Manager</h1>
     </div>

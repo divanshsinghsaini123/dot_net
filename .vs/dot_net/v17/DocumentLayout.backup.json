@@ -26,8 +26,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -38,8 +46,7 @@
               "RelativeToolTip": "Employees\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:55:16.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T06:55:16.023Z"
             },
             {
               "$type": "Document",
@@ -51,8 +58,7 @@
               "RelativeToolTip": "Employees\\Controllers\\Csv_Manager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:52:25.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T06:52:25.665Z"
             },
             {
               "$type": "Document",
@@ -77,8 +83,7 @@
               "RelativeToolTip": "Employees\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:51:26.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T06:51:26.145Z"
             }
           ]
         }
