@@ -1,12 +1,12 @@
 using Employee_manager.Interfaces;
-using Employee_manager.Services;
+using Employee_manager.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddSingleton<ICsv_Manager, Csv_Manager>();    
+builder.Services.AddSingleton<ICsv_Manager, Csv_Manager>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
